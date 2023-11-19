@@ -13,7 +13,7 @@ public class _06_Example2 {
             System.out.print(4 + " ");
         // 3) catch 블럭 확인2 -> 예외 처리
         } catch (Exception e) {
-            if (e instanceof ArithmeticException) // true
+            if (e instanceof ArithmeticException)
                 System.out.print("e instanceof ArithmeticException -> true" + " / ");
             System.out.print(5 + " / ");
         }
