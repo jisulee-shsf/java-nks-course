@@ -11,7 +11,7 @@ public class _07_Example {
             // 2) catch 블럭 확인
         } catch (ArithmeticException ae) {
             if (ae instanceof ArithmeticException) { // true
-                // 3) ArithmeticException 객체의 멤버 호출
+                // 3) ArithmeticException 객체 멤버 호출
                 ae.printStackTrace();
                 System.out.println("메시지: " + ae.getMessage());
             }
