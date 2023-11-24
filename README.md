@@ -12,6 +12,8 @@
 |08. 예외 처리|12. 메서드에 예외 선언하기1|[Example.java](./chap_08/_12_Example.java)|[jisulee-shsf.tistory.com](https://jisulee-shsf.tistory.com/320)|
 |08. 예외 처리|13. 메서드에 예외 선언하기2|[Example.java](./chap_08/_13_Example1.java)|[jisulee-shsf.tistory.com](https://jisulee-shsf.tistory.com/325)|
 |08. 예외 처리|13. 메서드에 예외 선언하기3|[Example.java](./chap_08/_13_Example2.java)|[jisulee-shsf.tistory.com](https://jisulee-shsf.tistory.com/325)|
+|08. 예외 처리|16. 사용자 정의 예외 만들기1|[Example.java](./chap_08/_13_Example2.java)|[jisulee-shsf.tistory.com](https://jisulee-shsf.tistory.com/321)|
+|08. 예외 처리|16. 사용자 정의 예외 만들기2|[Example.java](./chap_08/_13_Example2.java)|[jisulee-shsf.tistory.com](https://jisulee-shsf.tistory.com/321)|
 ####
 ## 📌 Reference
 - [남궁성의 정석코딩] Java의 정석 기초편 강의
