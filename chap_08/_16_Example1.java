@@ -2,7 +2,7 @@
 
 package chap_08;
 
-// 1-1) Exception 클래스를 상속받는 경우
+// 1-1) 사용자 정의 예외 클래스 정의
 class MyException1 extends Exception {
     private final int ERR_CODE;
 
@@ -23,10 +23,11 @@ class MyException1 extends Exception {
 
 public class _16_Example1 {
     public static void main(String[] args) {
-        // 1-2) 고의로 예외를 발생시킨 경우
+        // 1-2) main 메서드에서 예외 발생
         // throw new MyRuntimeException1("고의로 예외를 발생시킴"); -> 에러 발생
         try {
             throw new MyException1("고의로 예외를 발생시킴");
+        // 1-3) main 메서드에서 직접 예외 처리
         } catch (MyException1 me) {
             System.out.println("메시지: " + me.getMessage());
             System.out.println("에러 코드: " + me.getERR_CODE());
@@ -39,5 +40,5 @@ public class _16_Example1 {
 메시지: 고의로 예외를 발생시킴
 에러 코드: 123
 chap_08.MyException1: 고의로 예외를 발생시킴
-	at chap_08._16_Example1.main(_16_Example1.java:29)
+    at chap_08._16_Example1.main(_16_Example1.java:29)
 */
