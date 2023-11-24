@@ -30,9 +30,6 @@ public class _16_Example2 {
 }
 
 /*
-메시지: 고의로 예외를 발생시킴
-에러 코드: 123
-프로그램 정상 종료
-chap_08.MyException1: 고의로 예외를 발생시킴
-	at chap_08._16_Example1.main(_16_Example1.java:28)
+Exception in thread "main" chap_08.MyException2: 고의로 예외를 발생시킴
+	at chap_08._16_Example2.main(_16_Example2.java:27)
 */
