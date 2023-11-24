@@ -24,7 +24,7 @@ class MyException1 extends Exception {
 public class _16_Example1 {
     public static void main(String[] args) {
         // 1-2) main 메서드에서 예외 발생
-        // throw new MyRuntimeException1("고의로 예외를 발생시킴"); -> 에러 발생
+        // throw new MyException1("고의로 예외를 발생시킴"); -> 에러 발생
         try {
             throw new MyException1("고의로 예외를 발생시킴");
         // 1-3) main 메서드에서 직접 예외 처리
