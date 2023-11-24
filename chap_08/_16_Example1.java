@@ -6,9 +6,9 @@ package chap_08;
 class MyException1 extends Exception {
     private final int ERR_CODE;
 
-    MyException1(String message, int code) {
+    MyException1(String message, int errorCode) {
         super(message);
-        this.ERR_CODE = code;
+        this.ERR_CODE = errorCode;
     }
 
     MyException1(String message) {
