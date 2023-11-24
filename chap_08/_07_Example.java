@@ -26,5 +26,5 @@ public class _07_Example {
 메시지: / by zero
 프로그램 정상 종료
 java.lang.ArithmeticException: / by zero
-    at chap_08._07_Example.main(_07_Example.java:9)
+	at chap_08._07_Example.main(_07_Example.java:9)
 */
