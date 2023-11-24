@@ -26,18 +26,20 @@ public class _16_Example1 {
         try {
             // 1-2) main 메서드에서 예외 발생
             throw new MyException1("고의로 예외를 발생시킴");
-        // 1-3) main 메서드에서 직접 예외 처리
+            // 1-3) main 메서드에서 직접 예외 처리
         } catch (MyException1 me) {
             System.out.println("메시지: " + me.getMessage());
             System.out.println("에러 코드: " + me.getERR_CODE());
             me.printStackTrace();
         }
+        System.out.println("프로그램 정상 종료");
     }
 }
 
 /*
 메시지: 고의로 예외를 발생시킴
 에러 코드: 123
+프로그램 정상 종료
 chap_08.MyException1: 고의로 예외를 발생시킴
-    at chap_08._16_Example1.main(_16_Example1.java:28)
+	at chap_08._16_Example1.main(_16_Example1.java:30)
 */
