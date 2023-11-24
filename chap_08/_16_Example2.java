@@ -25,6 +25,7 @@ public class _16_Example2 {
     public static void main(String[] args) {
         // 2-2) main 메서드에서 예외 발생
         throw new MyException2("고의로 예외를 발생시킴");
+        // System.out.println("프로그램 정상 종료"); -> 에러 발생
     }
 }
 
