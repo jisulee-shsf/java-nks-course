@@ -1,8 +1,8 @@
-// 1) Exception 클래스를 상속받는 사용자 정의 예외 클래스를 정의하는 경우
+// 1) Exception 클래스를 상속받는 예외 클래스를 정의하는 경우
 
 package chap_08;
 
-// 1-1) 사용자 정의 예외 클래스 정의
+// 1-1) 예외 클래스 정의
 class MyException1 extends Exception {
     private final int ERR_CODE;
 
