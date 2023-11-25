@@ -1,4 +1,4 @@
-// 2) RuntimeException 클래스를 상속받는 예외 클래스를 정의하는 경우
+// 2) RuntimeException 클래스를 상속받아 예외 클래스를 정의한 경우
 
 package chap_08;
 
