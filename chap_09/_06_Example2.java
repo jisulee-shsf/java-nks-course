@@ -15,7 +15,7 @@ class ExampleClass5 {
 
 public class _06_Example2 {
     public static void main(String[] args) {
-        // 2) 인스턴스 변수값을 문자열로 변환해 반환한 경우
+        // 2) 인스턴스 변숫값을 문자열로 변환해 반환한 경우
         ExampleClass5 e = new ExampleClass5(100);
         System.out.println("e.toString(): " + e); // e.toString(): value = 100
     }
