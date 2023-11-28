@@ -28,7 +28,7 @@ class ExampleClass4 {
             return false;
         }
         ExampleClass4 e = (ExampleClass4)obj;
-        return (value == e.value);
+        return (this.value == e.value);
     }
 }
 
