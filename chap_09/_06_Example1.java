@@ -10,11 +10,9 @@ class ExampleClass3 {
     }
 }
 
-class ExampleClass4 {
-    int value;
-
+class ExampleClass4 extends ExampleClass3 {
     ExampleClass4(int value) {
-        this.value = value;
+        super(value);
     }
 
     // 2-2) hashCode 메서드 오버라이딩
@@ -34,7 +32,7 @@ class ExampleClass4 {
 
 public class _06_Example1 {
     public static void main(String[] args) {
-        // 1) equals 메서드와 hashCode 메서드를 오버라이딩하지 않은 경우
+        // 1) Object 클래스에 정의된 equals 메서드와 hashCode 메서드를 사용한 경우
         ExampleClass3 e1 = new ExampleClass3(100);
         ExampleClass3 e2 = new ExampleClass3(100);
         System.out.println("e1.equals(e2): " + e1.equals(e2));
@@ -47,7 +45,7 @@ public class _06_Example1 {
         System.identityHashCode(e1): 1975012498 / System.identityHashCode(e2): 1808253012
         */
 
-        // 3) equals 메서드와 hashCode 메서드를 오버라이딩한 경우
+        // 3) 오버라이딩한 equals 메서드와 hashCode 메서드를 사용한 경우
         ExampleClass4 e3 = new ExampleClass4(100);
         ExampleClass4 e4 = new ExampleClass4(100);
         System.out.println("e3.equals(e4): " + e3.equals(e4));
