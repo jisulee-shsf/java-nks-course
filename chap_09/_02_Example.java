@@ -10,7 +10,7 @@ class ExampleClass1 {
 
 public class _02_Example {
     public static void main(String[] args) {
-        // 1) 두 객체의 객체 주솟값이 서로 다를 때 Object 클래스에 정의된 equals 메서드로 비교한 경우
+        // 1) 두 객체의 주솟값이 서로 다를 때 Object 클래스에 정의된 equals 메서드로 비교한 경우
         ExampleClass1 e1 = new ExampleClass1(100);
         ExampleClass1 e2 = new ExampleClass1(100);
         System.out.println("e1.equals(e2): "+ e1.equals(e2));
@@ -22,7 +22,7 @@ public class _02_Example {
         e1.toString(): chap_09.ExampleClass1@75b84c92 / e2.toString(): chap_09.ExampleClass1@6bc7c054
         */
 
-        // 2) 두 객체의 객체 주솟값이 서로 같을 때 Object 클래스에 정의된 equals 메서드로 비교한 경우
+        // 2) 두 객체의 주솟값이 서로 같을 때 Object 클래스에 정의된 equals 메서드로 비교한 경우
         e2 = e1;
         System.out.println("e1.equals(e2): "+ e1.equals(e2));
         System.out.println("e1.value: " + e1.value + " / e2.value: " + e2.value);
