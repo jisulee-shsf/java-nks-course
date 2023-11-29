@@ -6,8 +6,14 @@ class ExampleClass5 {
     ExampleClass5(int value) {
         this.value = value;
     }
+}
 
-    // 1) toString 메서드 오버라이딩
+class ExampleClass6 extends ExampleClass5 {
+    ExampleClass6(int value) {
+        super(value);
+    }
+
+    // 2) toString 메서드 오버라이딩
     public String toString() {
         return "value = " + value;
     }
@@ -15,8 +21,12 @@ class ExampleClass5 {
 
 public class _06_Example2 {
     public static void main(String[] args) {
-        // 2) 객체의 인스턴스 변숫값을 문자열로 변환해 반환한 경우
-        ExampleClass5 e = new ExampleClass5(100);
-        System.out.println(e.toString()); // value = 100
+        // 1) Object 클래스에 정의된 toString 메서드를 사용한 경우
+        ExampleClass5 e1 = new ExampleClass5(100);
+        System.out.println(e1.toString()); // chap_09.ExampleClass5@75b84c92
+
+        // 3) 오버라이딩한 toString 메서드를 사용한 경우
+        ExampleClass6 e2 = new ExampleClass6(100);
+        System.out.println(e2.toString()); // value = 100
     }
 }
