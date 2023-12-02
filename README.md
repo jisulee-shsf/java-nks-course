@@ -21,6 +21,8 @@
 |09. 패키지와 클래스|03. equals()의 오버라이딩|[Example.java](./chap_09/_03_Example.java)|[tistory.com](https://jisulee-shsf.tistory.com/327)|
 |09. 패키지와 클래스|06. hashCode()의 오버라이딩|[Example.java](./chap_09/_06_Example1.java)|[tistory.com](https://jisulee-shsf.tistory.com/328)|
 |09. 패키지와 클래스|06. toString()의 오버라이딩|[Example.java](./chap_09/_06_Example2.java)|[tistory.com](https://jisulee-shsf.tistory.com/328)|
+|09. 패키지와 클래스|07. String 클래스|[Example.java](./chap_09/_06_Example2.java)|[tistory.com](https://jisulee-shsf.tistory.com/333)|
+|09. 패키지와 클래스|08~09. 문자열 리터럴 / 문자열의 비교|[Example.java](./chap_09/_06_Example2.java)|[tistory.com](https://jisulee-shsf.tistory.com/333)|
 ####
 ## 📌 Reference
 - [남궁성의 정석코딩] Java의 정석 기초편 강의
