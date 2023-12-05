@@ -23,6 +23,8 @@
 |09. 패키지와 클래스|06. toString()의 오버라이딩|[Example.java](./chap_09/_06_Example2.java)|[tistory.com](https://jisulee-shsf.tistory.com/328)|
 |09. 패키지와 클래스|07. String 클래스|[Example.java](./chap_09/_06_Example2.java)|[tistory.com](https://jisulee-shsf.tistory.com/333)|
 |09. 패키지와 클래스|08~09. 문자열 리터럴 / 문자열의 비교|[Example.java](./chap_09/_06_Example2.java)|[tistory.com](https://jisulee-shsf.tistory.com/333)|
+|09. 패키지와 클래스|10. 빈 문자열|[Example.java](./chap_09/_10_Example.java)|[tistory.com](https://jisulee-shsf.tistory.com/333)|
+|09. 패키지와 클래스|11. String 클래스의 생성자와 메서드|[Example.java](./chap_09/_11_Example.java)|[tistory.com](https://jisulee-shsf.tistory.com/334)|
 ####
 ## 📌 Reference
 - [남궁성의 정석코딩] Java의 정석 기초편 강의
