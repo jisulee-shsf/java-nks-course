@@ -2,6 +2,7 @@ package chap_11;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Iterator;
 
 public class _09_Example {
     public static void main(String[] args) {
@@ -45,7 +46,7 @@ public class _09_Example {
 
         // 9) boolean remove(Object o) / Object remove(int index)
         list2.add(0,"7"); // String
-        list2.add(3, 7); // 1 -> new Integer(1)
+        list2.add(3, 7); // 7 -> new Integer(7)
         System.out.println(list2); // [7, 1, 2, 7, 3, 1, 4, A, B, C, D]
 
         // 9-1) String 객체 "7"을 삭제하기 위해 remove 메서드의 인수로 객체를 전달한 경우
@@ -58,7 +59,7 @@ public class _09_Example {
         System.out.println(list2.remove(new Integer(7))); // true
         System.out.println(list2); // [1, 2, 3, 1, 4, A, C, D] -> new Integer(7) 삭제
 
-        // 10) boolean retainAll(Collection c) / boolean contains(Object o)
+        // 10) // 10) boolean retainAll(Collection c) / boolean contains(Object o) / Object get(int index)
         System.out.println(list1); // [1, 2, 3, 4, 5, 6]
         System.out.println(list2); // [1, 2, 3, 1, 4, A, C, D]
 
